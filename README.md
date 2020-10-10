@@ -10,4 +10,4 @@ This data was used to detect road surface conditions on rural roads in Ireland. 
 <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113929.png" width="250"> | <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113936.png" width="250">
 
 
-The values for each **X-Y-Z** axis can be displayed with a simple manipulation of the TextView Code. **But this should be done Asynchronously, As it the high rate of data storage and displaying will cause the APP to crash!!**
+The values for each **X-Y-Z** axis can be displayed with a simple manipulation of the _**updateTextView**_ Code. **But this should be done Asynchronously, As the high rate of data storage and displaying will cause the APP to crash!!** Ideally, the database Add operation should be run in the background.
