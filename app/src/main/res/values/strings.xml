@@ -1,0 +1,9 @@
+<resources>
+    <string name = "app_name">Sensor Data Display</string>
+    <string name = "accelo_data">Road 1 Data</string>
+    <string name = "rotational_data">Road 2 Data</string>
+    <string name = "record_button">Start Recording Road1</string>
+    <string name = "record_button2">Start Recording Road2</string>
+    <string name = "lat">Latitude</string>
+    <string name = "lon">Longitude</string>
+</resources>

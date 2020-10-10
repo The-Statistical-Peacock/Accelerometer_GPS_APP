@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="#568F8484"
+    android:backgroundTintMode="add"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/record_button2"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="20dp"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="@string/record_button2"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowRadius="?android:attr/ambientShadowAlpha"
+        android:text="@string/record_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yRot"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <TextView
+        android:id="@+id/rotational_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:ems="10"
+        android:text="@string/rotational_data"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yValue" />
+
+    <TextView
+        android:id="@+id/yRot"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/zRot"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xRot"
+        app:layout_constraintTop_toBottomOf="@+id/rotational_data" />
+
+    <TextView
+        android:id="@+id/xRot"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/yRot"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotational_data" />
+
+    <TextView
+        android:id="@+id/zRot"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/yRot"
+        app:layout_constraintTop_toBottomOf="@+id/rotational_data" />
+
+    <TextView
+        android:id="@+id/accel_data"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:ems="10"
+        android:singleLine="false"
+        android:text="@string/accelo_data"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/zValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xValue"
+        app:layout_constraintTop_toBottomOf="@+id/accel_data" />
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/yValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accel_data" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="#1E1818"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/yValue"
+        app:layout_constraintTop_toBottomOf="@+id/accel_data" />
+
+    <Button
+        android:id="@+id/record_button"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="20dp"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="@string/record_button"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowRadius="?android:attr/ambientShadowAlpha"
+        android:text="@string/record_button"
+        app:layout_constraintBottom_toTopOf="@+id/record_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yRot" />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:text="@string/lat"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/record_button"
+        app:layout_constraintEnd_toStartOf="@+id/lon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yRot" />
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:text="@string/lon"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/record_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lat"
+        app:layout_constraintTop_toBottomOf="@+id/yRot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
