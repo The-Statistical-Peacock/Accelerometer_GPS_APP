@@ -7,5 +7,5 @@ It will also take the current GPS coordinates and phones speed and store them wi
 This data was used to detect road surface conditions on rural roads in Ireland. We used the K-Means Clustering Algorithm after the data was collected to analyze the data. 
 
 
-<img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113929.png" width="250"> | <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113929.png" width="250">
+<img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113929.png" width="250"> | <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113936.png" width="250">
 
