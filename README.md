@@ -9,3 +9,5 @@ This data was used to detect road surface conditions on rural roads in Ireland. 
 
 <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113929.png" width="250"> | <img src="https://github.com/The-Statistical-Peacock/Accelerometer_GPS_App/blob/main/Screenshot_20201010-113936.png" width="250">
 
+
+The values for each **X-Y-Z** axis can be displayed with a simple manipulation of the TextView Code. 
